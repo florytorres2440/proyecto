@@ -1,0 +1,23 @@
+ul { list-style: none;
+text-align: left;
+margin: 70px;
+}
+li {
+    display: inline;
+    margin: 30px;
+    text-align: center;
+}
+li a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.post {
+    font-size: 30px;
+}
+ul li a {
+    text 
+}
+a:hover{
+    color: skyblue;
+}
