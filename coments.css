@@ -1,6 +1,11 @@
+nav {
+    width: 100%;
+    z-index: inherit;
+    display: flex;
+}
 ul { list-style: none;
 text-align: left;
-margin: 70px;
+margin: 20px;
 }
 li {
     display: inline;
@@ -8,16 +13,73 @@ li {
     text-align: center;
 }
 li a {
-    padding: 10px 20px 10px 20px;
+    padding: 30px 20px 10px 20px;
     text-decoration: none;
     font-size: 40px;
+}
+.contenedor{
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid rgb(173, 166, 156);
+    border-radius: 10px;
+    margin-left: 270px;
+    width: 550px;
+    height: 550px;
+}
+.posteo {margin: 27px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
 }
 .post {
     font-size: 30px;
 }
-ul li a {
-    text 
-}
-a:hover{
+.flecha:hover{
     color: skyblue;
+}
+.publi {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: none;
+}   
+.icon {
+    margin-left: 250px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+} 
+.icon2 {
+    margin-left: 60px;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 3%;}
+    
+.icon:hover{
+    filter: brightness(120%);
+}
+.seguir{
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 50px;
+    font-family: arial;
+}
+.nombre{
+    width: 50%;
+    font-family: arial;
+    font-size: 13px;
+    margin-left: 10px;
+    flex: 4;}
+.seguir:hover{filter: brightness(130%);}
+.Hashtag{color: blue;}
+a {
+    text-decoration: none;
+    color: black;
+}
+.user{
+    text-decoration: none;
 }
